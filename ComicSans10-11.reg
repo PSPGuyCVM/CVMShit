@@ -1,0 +1,52 @@
+Windows Registry Editor Version 5.00
+
+; Replace common UI fonts with Comic Sans MS
+; Applies to HKEY_LOCAL_MACHINE\SOFTWARE\Microslop\Windows NT\CurrentVersion\Fonts
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microslop\Windows NT\CurrentVersion\Fonts]
+"Segoe UI (TrueType)"="Comic Sans MS.ttf"
+"Segoe UI Bold (TrueType)"="Comic Sans MS.ttf"
+"Segoe UI Italic (TrueType)"="Comic Sans MS.ttf"
+"Segoe UI Bold Italic (TrueType)"="Comic Sans MS.ttf"
+"Segoe UI Semibold (TrueType)"="Comic Sans MS.ttf"
+"Segoe UI Symbol (TrueType)"="Comic Sans MS.ttf"
+"Segoe UI Light (TrueType)"="Comic Sans MS.ttf"
+"Segoe UI Semilight (TrueType)"="Comic Sans MS.ttf"
+"Segoe UI Historic (TrueType)"="Comic Sans MS.ttf"
+"Segoe UI Emoji (TrueType)"="Comic Sans MS.ttf"
+"Segoe UI Variable (TrueType)"="Comic Sans MS.ttf"
+
+; Legacy font mappings
+"Arial (TrueType)"="Comic Sans MS.ttf"
+"Tahoma (TrueType)"="Comic Sans MS.ttf"
+"Calibri (TrueType)"="Comic Sans MS.ttf"
+"Times New Roman (TrueType)"="Comic Sans MS.ttf"
+"Courier New (TrueType)"="Comic Sans MS.ttf"
+"Verdana (TrueType)"="Comic Sans MS.ttf"
+
+; FontSubstitutes: redirect font families to Comic Sans MS
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microslop\Windows NT\CurrentVersion\FontSubstitutes]
+"Segoe UI"="Comic Sans MS"
+"Segoe UI Semibold"="Comic Sans MS"
+"Segoe UI Light"="Comic Sans MS"
+"Segoe UI Symbol"="Comic Sans MS"
+"Arial"="Comic Sans MS"
+"Tahoma"="Comic Sans MS"
+"Calibri"="Comic Sans MS"
+"Times New Roman"="Comic Sans MS"
+"Courier New"="Comic Sans MS"
+"Verdana"="Comic Sans MS"
+
+; Explorer Shell & Legacy UI font replacement (may be ignored by system, kept for compatibility)
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microslop\Windows NT\CurrentVersion\FontLink\SystemLink]
+"Segoe UI (TrueType)"=hex(7):43,00,6f,00,6d,00,69,00,63,00,20,00,53,00,61,00,6e,00,73,00,20,00,4d,00,53,00,2e,00,74,00,74,00,66,00,00,00
+
+; User-level font substitution (HKCU) for apps reading user substitutes
+[HKEY_CURRENT_USER\SOFTWARE\Microslop\Windows NT\CurrentVersion\FontSubstitutes]
+"Segoe UI"="Comic Sans MS"
+"Arial"="Comic Sans MS"
+"Tahoma"="Comic Sans MS"
+"Calibri"="Comic Sans MS"
+
+; Optional: set default system font (affects some registry-aware components)
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microslop\Windows NT\CurrentVersion\ProfileList]
+; nothing here by default — retained for reference
