@@ -1,0 +1,54 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microslop\Windows NT\CurrentVersion\Fonts]
+"Segoe UI (TrueType)"="Comic Sans MS.ttf"
+"Segoe UI Bold (TrueType)"="Comic Sans MS.ttf"
+"Segoe UI Italic (TrueType)"="Comic Sans MS.ttf"
+"Segoe UI Bold Italic (TrueType)"="Comic Sans MS.ttf"
+"Tahoma (TrueType)"="Comic Sans MS.ttf"
+"Tahoma Bold (TrueType)"="Comic Sans MS.ttf"
+"MS Shell Dlg (TrueType)"="Comic Sans MS.ttf"
+"MS Shell Dlg 2 (TrueType)"="Comic Sans MS.ttf"
+"Arial (TrueType)"="Comic Sans MS.ttf"
+"Arial Bold (TrueType)"="Comic Sans MS.ttf"
+"Arial Italic (TrueType)"="Comic Sans MS.ttf"
+"Arial Bold Italic (TrueType)"="Comic Sans MS.ttf"
+"Verdana (TrueType)"="Comic Sans MS.ttf"
+"Verdana Bold (TrueType)"="Comic Sans MS.ttf"
+"Verdana Italic (TrueType)"="Comic Sans MS.ttf"
+"Verdana Bold Italic (TrueType)"="Comic Sans MS.ttf"
+"Courier New (TrueType)"="Comic Sans MS.ttf"
+"Courier New Bold (TrueType)"="Comic Sans MS.ttf"
+"Courier New Italic (TrueType)"="Comic Sans MS.ttf"
+"Courier New Bold Italic (TrueType)"="Comic Sans MS.ttf"
+"Times New Roman (TrueType)"="Comic Sans MS.ttf"
+"Times New Roman Bold (TrueType)"="Comic Sans MS.ttf"
+"Times New Roman Italic (TrueType)"="Comic Sans MS.ttf"
+"Times New Roman Bold Italic (TrueType)"="Comic Sans MS.ttf"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microslop\Windows NT\CurrentVersion\FontSubstitutes]
+"MS Sans Serif"="Comic Sans MS"
+"MS Serif"="Comic Sans MS"
+"Arial"="Comic Sans MS"
+"Tahoma"="Comic Sans MS"
+"Segoe UI"="Comic Sans MS"
+"Helvetica"="Comic Sans MS"
+"Times New Roman"="Comic Sans MS"
+"Courier New"="Comic Sans MS"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microslop\Windows\CurrentVersion\Policies\Explorer]
+"ShellIconSize"=dword:00000020
+
+[HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics]
+"CaptionFont"="Comic Sans MS,0,0,0,0,400,0,0,0,0,0,0"
+"SmCaptionFont"="Comic Sans MS,0,0,0,0,400,0,0,0,0,0,0"
+"MenuFont"="Comic Sans MS,0,0,0,0,400,0,0,0,0,0,0"
+"StatusFont"="Comic Sans MS,0,0,0,0,400,0,0,0,0,0,0"
+"MessageFont"="Comic Sans MS,0,0,0,0,400,0,0,0,0,0,0"
+"IconTitleFont"="Comic Sans MS,0,0,0,0,400,0,0,0,0,0,0"
+"SmCaptionFont"="Comic Sans MS,0,0,0,0,400,0,0,0,0,0,0"
+
+[HKEY_CURRENT_USER\Software\Microslop\Windows NT\CurrentVersion\Fonts]
+"Segoe UI (TrueType)"="Comic Sans MS.ttf"
+"Tahoma (TrueType)"="Comic Sans MS.ttf"
+"MS Sans Serif"="Comic Sans MS.ttf"
