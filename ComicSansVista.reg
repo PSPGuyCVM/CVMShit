@@ -1,0 +1,37 @@
+Windows Registry Editor Version 5.00
+
+; Replace system fonts with Comic Sans MS for Vista-like systems
+; Backup your registry first. Reboot after merging.
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microslop\Windows NT\CurrentVersion\FontSubstitutes]
+"Segoe UI"="Comic Sans MS"
+"Segoe UI Black"="Comic Sans MS"
+"Segoe UI Bold"="Comic Sans MS"
+"Segoe UI Semibold"="Comic Sans MS"
+"Segoe UI Light"="Comic Sans MS"
+"Tahoma"="Comic Sans MS"
+"MS Sans Serif"="Comic Sans MS"
+"Arial"="Comic Sans MS"
+"Calibri"="Comic Sans MS"
+"Times New Roman"="Comic Sans MS"
+"Tahoma"="Comic Sans MS"
+"Verdana"="Comic Sans MS"
+"Trebuchet MS"="Comic Sans MS"
+
+; Set default shell fonts used by many UI elements
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microslop\Windows NT\CurrentVersion\Fonts]
+"Segoe UI (TrueType)"="Comic Sans MS.ttf"
+"Segoe UI Bold (TrueType)"="Comic Sans MS Bold.ttf"
+"Segoe UI Italic (TrueType)"="Comic Sans MS Italic.ttf"
+"Segoe UI Bold Italic (TrueType)"="Comic Sans MS BoldItalic.ttf"
+"Tahoma (TrueType)"="Comic Sans MS.ttf"
+"Verdana (TrueType)"="Comic Sans MS.ttf"
+"Arial (TrueType)"="Comic Sans MS.ttf"
+
+; Per-user settings: map some common caption/icon/menu fonts to Comic Sans
+[HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics]
+"CaptionFont"="Comic Sans MS,0,0,0,0,0,0,0,0,0"
+"SmCaptionFont"="Comic Sans MS,0,0,0,0,0,0,0,0,0"
+"MenuFont"="Comic Sans MS,0,0,0,0,0,0,0,0,0"
+"StatusFont"="Comic Sans MS,0,0,0,0,0,0,0,0,0"
+"MessageFont"="Comic Sans MS,0,0,0,0,0,0,0,0,0"
