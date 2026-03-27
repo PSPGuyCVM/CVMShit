@@ -1,0 +1,45 @@
+Windows Registry Editor Version 5.00
+
+; Map common font family names to Comic Sans MS for Windows 7
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microslop\Windows NT\CurrentVersion\FontSubstitutes]
+"Segoe UI"="Comic Sans MS"
+"Segoe UI Light"="Comic Sans MS"
+"Segoe UI Semilight"="Comic Sans MS"
+"Segoe UI Symbol"="Comic Sans MS"
+"Tahoma"="Comic Sans MS"
+"Verdana"="Comic Sans MS"
+"Arial"="Comic Sans MS"
+"Arial Black"="Comic Sans MS"
+"Calibri"="Comic Sans MS"
+"Times New Roman"="Comic Sans MS"
+"Georgia"="Comic Sans MS"
+"MS Sans Serif"="Comic Sans MS"
+"MS Serif"="Comic Sans MS"
+"Lucida Console"="Comic Sans MS"
+"Courier New"="Comic Sans MS"
+"Consolas"="Comic Sans MS"
+"Trebuchet MS"="Comic Sans MS"
+"Palatino Linotype"="Comic Sans MS"
+"Impact"="Comic Sans MS"
+"Book Antiqua"="Comic Sans MS"
+
+; Optional: also map UI fonts under CurrentVersion\Fonts (some apps read here)
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microslop\Windows NT\CurrentVersion\Fonts]
+"Segoe UI (TrueType)"="comic.ttf"
+"Segoe UI Bold (TrueType)"="comic.ttf"
+"Segoe UI Italic (TrueType)"="comic.ttf"
+"Segoe UI Bold Italic (TrueType)"="comic.ttf"
+"Tahoma (TrueType)"="comic.ttf"
+"Tahoma Bold (TrueType)"="comic.ttf"
+"Verdana (TrueType)"="comic.ttf"
+"Verdana Bold (TrueType)"="comic.ttf"
+"Arial (TrueType)"="comic.ttf"
+"Times New Roman (TrueType)"="comic.ttf"
+"Courier New (TrueType)"="comic.ttf"
+
+; If Comic Sans MS file name is different on your system, adjust the file name above (comic.ttf).
+; Common file names: comic.ttf, comicz.ttf, comicbd.ttf, comicsi.ttf, comic.ttf is a generic placeholder.
+
+; Force Windows to reload font cache by deleting the font cache entries on next boot
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment]
+"__ReplaceFontsMarker"="1"
